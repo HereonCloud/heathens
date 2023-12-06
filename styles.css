@@ -1,0 +1,126 @@
+body,
+html {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: url(./assets/images/background.png);
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(76, 8, 8);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+
+.nav-button {
+  display: flex;
+  gap: 28px;
+  margin-right: 20px;
+}
+
+.nav-btn {
+  font-size: 20px;
+  padding: 10px 10px 5px 10px;
+  border: 0;
+  border-bottom: 1px solid rgba(225, 39, 39, 0.2);
+  background-color: rgb(76, 8, 8);
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  border-bottom: 4px solid rgba(225, 39, 39, 0.3);
+
+  background-color: rgba(225, 39, 39, 0.3);
+}
+
+.first-section {
+  background-color: rgb(76, 8, 8, 0.5);
+  display: flex;
+  padding: 60px 40px;
+  gap: 20px;
+}
+
+.first-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.first-left h1 {
+  height: 100%;
+  color: white;
+  font-size: 5vw;
+  font-family: "Orbitron", sans-serif;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.first-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-right img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(32, 33, 36, 0.6);
+  padding: 60px 40px;
+  gap: 24px;
+}
+
+.second-section p {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  font-family: "Orbitron", sans-serif;
+  font-size: 32px;
+  color: white;
+}
+
+.second-section .albums {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.second-section .album {
+  min-width: 0px;
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e6001b,
+      0 0 40px #e6001b, 0 0 50px #e6001b, 0 0 60px #e6001b, 0 0 70px #e6001b;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4d53, 0 0 40px #ff4d53,
+      0 0 50px #ff4d53, 0 0 60px #ff4d53, 0 0 70px #ff4d53, 0 0 80px #ff4d53;
+  }
+}
