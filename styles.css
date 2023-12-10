@@ -35,11 +35,11 @@ html {
   background-color: rgb(76, 8, 8);
   color: whitesmoke;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .nav-btn:hover {
   border-bottom: 4px solid rgba(225, 39, 39, 0.3);
-
   background-color: rgba(225, 39, 39, 0.3);
 }
 
@@ -89,7 +89,7 @@ html {
   gap: 24px;
 }
 
-.second-section p {
+.second-section .title {
   width: 100%;
   text-align: center;
   margin: 0;
@@ -112,6 +112,62 @@ html {
   height: 300px;
   object-fit: contain;
   border-radius: 10px;
+}
+
+.third-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(252, 252, 252, 0.249);
+  padding: 60px 40px;
+  gap: 24px;
+  font-family: "Orbitron", sans-serif;
+}
+
+.third-section .quote {
+  width: 1000px;
+}
+
+.third-section h2 {
+  color: white;
+  font-size: 72px;
+  margin: 0;
+  text-align: center;
+}
+
+.third-section p {
+  text-align: end;
+  color: #ff4d53;
+  font-size: 24px;
+}
+
+.second-section .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(76, 8, 8);
+  border-radius: 24px;
+  padding: 40px;
+  width: 80%;
+  align-self: center;
+  gap: 24px;
+}
+
+.second-section .caption {
+  color: #fff;
+  font-family: "Orbitron", sans-serif;
+  font-size: 20px;
+}
+
+.second-section .button {
+  cursor: pointer;
+  border-radius: 4px;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(3, 3, 3);
+  color: #fff;
+  font-family: "Orbitron", sans-serif;
+  border: 2px;
 }
 
 @-webkit-keyframes glow {
