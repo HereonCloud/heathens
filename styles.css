@@ -170,6 +170,13 @@ html {
   border: 2px;
 }
 
+.second-section .credits {
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+  font-family: "Orbitron", sans-serif;
+}
+
 @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e6001b,
